@@ -7,7 +7,7 @@ class Person
   end
 end
 
-susan_attributes = {name: "Susan", height: "5'11\"", eye_color: "Green"}
+susan_attributes = {name: "Susan", height: "5'11\"", eye_color: "Green", handed: "Left", wrist_size: "small"}
 
 susan = Person.new(susan_attributes)
 # susan.name      # => "Susan"
