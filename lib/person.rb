@@ -1,7 +1,7 @@
 class Person
-  attr_accessor 
+  attr_accessor
 
-  def initialize()
-    
+  def initialize(attributes)
+    attribute_hash = attributes.each { |key, value| self.send('#{key}='), value}
   end
 end
