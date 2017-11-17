@@ -1,3 +1,4 @@
+require 'pry'
 class Person
   attr_accessor :name, :birthday, :hair_color, :eye_color, :height, :weight, :handed, :complexion, :t_shirt_size, :wrist_size, :glove_size, :pant_length, :pant_width
 
@@ -12,3 +13,5 @@ susan = Person.new(susan_attributes)
 # susan.name      # => "Susan"
 # susan.height    # => "5'11""
 # susan.eye_color # => "Green"
+
+binding.pry
